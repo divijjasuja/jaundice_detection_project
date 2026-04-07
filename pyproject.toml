@@ -1,0 +1,15 @@
+[project]
+name = "jaundice-detection-project"
+version = "0.1.0"
+description = "A Computer-vision based deep learning approach to classifying jaundice in neonatal images"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.4",
+    "pillow>=12.2.0",
+    "scrapy>=2.14.2",
+    "torch>=2.11.0",
+    "torchvision>=0.26.0",
+    "tqdm>=4.67.3",
+]
