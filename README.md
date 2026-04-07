@@ -65,7 +65,9 @@ Each model was fine-tuned on the neonatal jaundice dataset. Transfer learning wa
 ## Installation
 
 ```bash
-pip install -r requirement.txt
+pip install uv
+uv venv ./.venv --python 3.11
+uv add -r requirement.txt
 ```
 
 ---
