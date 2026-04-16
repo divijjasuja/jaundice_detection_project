@@ -5,6 +5,7 @@ description = "A Computer-vision based deep learning approach to classifying jau
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "ipykernel>=7.2.0",
     "matplotlib>=3.10.8",
     "numpy>=2.4.4",
     "pillow>=12.2.0",
